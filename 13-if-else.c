@@ -2,14 +2,14 @@
 
 int main(){
     int age;
-    printf("Enter your age:\n");
+    printf("Enter your age:-\n");
     scanf("%d", &age);
 
     if (age>=18)
     {
         printf("You can drive\n");
     }
-    if (age==50)
+    else if (age==50)
     {
         printf("Half-century");
     }
